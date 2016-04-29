@@ -6,7 +6,7 @@ from urllib2 import urlopen
 
 def random_proverbs():
     proverbs = []
-    url = "http://stefki.com/sandbox/python/greek_proverbs/proverbs.xml"
+    url = "<url to .xml>"
 
     tree = ET.parse( urlopen( url ) )
     root = tree.getroot()
